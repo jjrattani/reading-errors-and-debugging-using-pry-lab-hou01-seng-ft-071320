@@ -1,7 +1,6 @@
 # don't forget to add: require 'pry'
 def get_user_input
   gets.chomp
-  
 end
 
 def prompt_user
@@ -11,9 +10,9 @@ def prompt_user
 end
 def selection(num)
   if num = 1
-    puts "YUM YUM MUNCH MUNCH MUNCH"
+    return "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-     puts "HAM HAM HAM IN MY TUMMY"
+     return "HAM HAM HAM IN MY TUMMY"
   end
 end
 
