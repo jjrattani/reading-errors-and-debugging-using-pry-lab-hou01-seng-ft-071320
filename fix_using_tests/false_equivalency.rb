@@ -12,13 +12,13 @@ end
 binding.pry
 def selection(num)
   if num = 1
-     "YUM YUM MUNCH MUNCH MUNCH"
+    puts "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-     "HAM HAM HAM IN MY TUMMY"
+     puts "HAM HAM HAM IN MY TUMMY"
   end
 end
 
 def runner
-  prompt_user
+  get_user_input = prompt_user
   selection(get_user_input)
 end
